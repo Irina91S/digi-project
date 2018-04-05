@@ -79,3 +79,20 @@ li.show-more {
 border-left: 3px solid rgb(142, 68, 173);
 	background-color: #f6f8fc;
 }
+.friends-container div{
+	width: 100%;
+	display: inline-flex;
+	justify-content: ;
+
+}
+
+.shawn{
+	display: inline-flex;
+	justify-content: flex-start;
+}
+.badge i{
+	display: inline-flex;
+	justify-content: flex-end;
+
+
+}
