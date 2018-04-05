@@ -1,0 +1,81 @@
+.main-content{
+	margin: 20px;
+}
+
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(../fonts/proximabold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(../fonts/proximaregular.woff) format('woff');
+}
+
+.nav-link p {
+	font-size: 34px;
+	font-family: 'Proxima Nova Bold';
+	margin: 0;
+}
+
+
+
+.nav-link.courses p {
+	color: #e67333;
+}
+ .courses-list li:hover {
+	border-left: 3px solid #e67333;
+	background-color: #f6f8fc;
+}
+
+.list-group li:first-child {
+	border-top: 0;
+	border-radius: 0;
+}
+
+.list-group li {
+	border-left: 3px solid white;
+	font-family: 'Proxima Nova Regular';
+	font-size: 13px;
+	color: #7f8c8d;
+	border-radius: 0;
+}
+
+li.show-more {
+	font-size: 12px;
+	color: black;
+}
+
+.nav-link p:nth-child(2) {
+	font-size: 12px;
+	font-family: 'Proxima Nova Bold';
+	padding: 0;
+}
+
+.nav-link.questions p {
+	color: rgb(142, 68, 173);
+}
+
+.nav-link.exams p {
+	color: rgb(22, 160, 133);
+}
+
+ .qa-list li:hover {
+	border-left: 3px solid rgb(142, 68, 173);
+	background-color: #f6f8fc;
+}
+
+.exam-list li:hover{
+	border-left: 3px solid rgb(22, 160, 133);
+	background-color: #f6f8fc;
+}
+
+.activity .list-group li:hover{
+border-left: 3px solid rgb(142, 68, 173);
+	background-color: #f6f8fc;
+}

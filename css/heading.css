@@ -1,0 +1,37 @@
+.heading{
+  width:1133px;
+  height:189px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(212, 216, 216);
+}
+
+.profile{
+  display: inline-flex;
+  margin-top: 19px;
+  margin-left: 45px;
+}
+
+.user-name{
+  margin-left: 30px;
+}
+.user-name p{
+  color: black;
+}
+
+.info p{
+  color: black;
+  display: inline-flex;
+  line-height: 14px;
+}
+
+.stars{
+  display: inline;
+}
+
+.nav-tab li:hover{
+  border-bottom: 2px solid green;
+}
+
+.list{
+  margin-left: 45px;
+}

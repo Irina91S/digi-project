@@ -1,0 +1,35 @@
+
+.user-profile{
+  background-color: rgb(46, 204, 113);
+  width: 200px;
+  height: 90px;
+}
+
+
+
+.user-profile p{
+  color: rgb(255, 255, 255);
+
+}
+
+.top{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 229, 229);
+  height:90px;
+  width:1133px;
+
+}
+.icons{
+  margin-top: 37px;
+  margin-bottom: 36px;
+}
+
+.logo{
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.search{
+  margin-top: 37px;
+  margin-bottom: 36px;
+
+}

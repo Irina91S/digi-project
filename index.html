@@ -1,117 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<title>Middle row</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/leftbar.css">
+  <link rel="stylesheet" href="./css/heading.css">
+  <link rel="stylesheet" href="./css/content.css">
+  <title> Dashboard</title>
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row middle">
-			<div class="col-lg-4 ">
-				<ul class="nav nav-tabs">
-					<li class="nav-item col-lg-6 p-0">
-						<a class="nav-link active courses text-center" href="#done" data-toggle="tab">
-							<p>12</p>
-							<p>DONE COURSE</p>
-						</a>
-					</li>
-					<li class="nav-item col-lg-6 p-0">
-						<a class="nav-link text-center" href="#unfinished" data-toggle="tab">
-							<p>3</p>
-							<p>UNFINISHED COURSE</p>
-						</a>
-					</li>				
-				</ul>
-				<div class="tab-content done">
-					<ul class="list-group">
-					  <li class="list-group-item">Basic for UX developer</li>
-					  <li class="list-group-item">10 steps to improve your wireframe</li>
-					  <li class="list-group-item">A Better Way To Request App Ratings</li>
-					  <li class="list-group-item">How To Speed Up Your WordPress Website</li>
-					  <li class="list-group-item show-more text-right">Show more</li>
-					</ul>
-				</div>
-			</div>
-<!-- 			<div class="col-lg-4 question">
-				<ul class="nav nav-tabs">
-					<li class="nav-item">
-						<a class="nav-link active" href="#done" data-toggle="tab">12 done question</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#unfinished" data-toggle="tab">3 unfinished question</a>
-					</li>
-				</ul>
+  <header >
+    <div class="container-fluid">
+      <div class="row"> <!-- first row-->
 
-				<div class="tab-content done">
-					<div role="tabpanel" class="tab-pane active" id="done">
-						<span class="row">Junior web developer</span>					
-					</div>
+        <div class="col-lg-2 user-profile">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="./images/avatar.png" alt="user avatar" class="avatar-small">
+            </div>
 
-					<div role="tabpanel" class="tab-pane active" id="done">
-						<span class="row"> 10 steps to improve your wireframe</span>						
-					</div>
+            <div class="col-lg-6">
+              <p class="text-right">HOANG NGUYEN</p>
+            </div>
+          </div>
+        </div>
 
-					<div role="tabpanel" class="tab-pane active" id="done">
-						<span class="row">A Better Way To Request App Ratings</span>						
-					</div>
+        <div class="col-lg-10 top" >
+          <div class="row">
 
-					<div role="tabpanel" class="tab-pane active" id="done">
-						<span class="row">How To Speed Up Your WordPress Website</span>						
-					</div>
+            <div class="col-lg-4 icons">
+              <span class="fas fa-user fa-lg"></span>
+              <span class="fas fa-comment fa-lg "></span>
+              <span class="fas fa-bell fa-lg "></span>
+            </div>
 
-					<div role="tabpanel" class="tab-pane active" id="done">
-						<span class="row">Show more</span>						
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 exams">
+            <div class="col-lg-4 ">
+              <img src="./images/icon.png" alt="site logo" class="rounded mx-auto d-block logo">
+            </div>
 
-				<ul class="nav nav-tabs">
-					<li class="nav-item">
-						<a class="nav-link active" href="#done" data-toggle="tab">12 done exams</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#unfinished" data-toggle="tab">3 unfinished exams</a>
-					</li>
-				</ul>
+            <div class="col-lg-4 search">
+              <div class="d-flex justify-content-end">
+                <input type="search" placeholder="Type for search">
+                <button type="button">
+                  <span class="fas fa-search"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 
-				<div class="tab-content done">
-					<div role="tabpanel" class="tab-pane active" id="done">
-						<span class="row">Junior web developer</span>				
-					</div>
+      </div>
+    </div>
+  </header><!-- header goes here -->
+  <!--content goes here-->
+  <div class="container-fluid">
+    <!-- second row-->
+    <div class="row">
+      <!-- left side bar -->
+      <aside class="col-lg-2">
+        <div class="row">
+          <div class="col-lg-12 dashboard">
+            <span class="text-left">dashboard<img src="./images/dashboardshape.png" alt="bullseye"></span>
+          </div>
+        </div>
 
-					<div role="tabpanel" class="tab-pane active" id="done">
-						<span class="row"> 10 steps to improve your wireframe</span>						
-					</div>
+        <div class="row">
+          <div class="col-lg-12 course">
+            <span class="text-right">COURSE <img src="./images/course.png" alt="courses"></span>
+          </div>
+        </div>
 
-					<div role="tabpanel" class="tab-pane active" id="done">
-						<span class="row">A Better Way To Request App Ratings</span>						
-					</div>
+        <div class="row">
+          <div class="col-lg-12 exam">
+            <span class="text-left">EXAM <img src="./images/exam.png" alt="exams"></span>
+          </div>
+        </div>
 
-					<div role="tabpanel" class="tab-pane active" id="done">
-						<span class="row">How To Speed Up Your WordPress Website</span>				
-					</div>
+        <div class="row">
+          <div class="col-lg-12 qa">
+            <span class="text-left">Q&A <img src="./images/qa.png" alt="q&a"></span>
+          </div>
+        </div>
 
-					<div role="tabpanel" class="tab-pane active" id="done">
-						<span class="row">Show more</span>						
-					</div>
+        <div class="row">
+          <div class="col-lg-12 news">
+            <span class="text-left">NEWS <img src="./images/news.png" alt="news"></span>
+          </div>
+        </div>
 
-				</div>
-			</div> -->
-		</div>
-	</div>
+      </aside>
+      <main class="col-lg-10">
+        <!-- users profile heading-->
+        <div class="row" >
+          <div class="col-lg-12 heading">
+            <!--user heading  -->
+            <div class="row">
+              <div class="col-lg-10">
+                <div class="profile">
+                  <img src="./images/avatarbig.png" alt="profile avatar" class="photo">
+                  <div class="user-name">
+                    <p> HOANG NGUYEN</p>
+                    <div class="info">
+                      <p>Student .
+                        <a href="#">Learn more</a>
+                      </p>
+                      <div class="xp">
+                        <img src="./images/xp.png" alt="experience icon" class="xp-icon">
+                        <p> 8,782 exp  </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stars">
+                    <img src="./images/star.png" alt="stars">
+                    <img src="./images/star.png" alt="stars">
+                    <img src="./images/star.png" alt="stars">
+                    <img src="./images/star.png" alt="stars">
+                    <img src="./images/star.png" alt="stars">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="tooltip-icon d-flex justify-content-end">
+                  <span class="fas fa-edit fa-lg"></span>
+                  <span class="fas fa-sign-out-alt fa-lg" ></span>
+                </div>
+              </div>
+            </div>
+            <div class="row list">
+              <ul class="nav nav-tab">
+                <li class="active">
+                  <a class="nav-link" href="">KNWOLEDGE</a>
+                </li>
+                <li class="nav-item">
+                  <a  class="nav-link" href="">COURSE</a>
+                </li >
+                <li class="nav-item">
+                  <a class="nav-link" href="">EXAM</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Q&A</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">NEWS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">ACTIVITY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">FRIENDS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--main content -->
+        <div  class="col-lg-12 main-content">
+          <!-- middle row -->
+          <div class="row">
+            <div class="col-lg-4 ">
+              <ul class="nav nav-tabs">
+                <li class="nav-item col-lg-6 p-0">
+                  <a class="nav-link active courses text-center" href="#done" data-toggle="tab">
+                    <p>12</p>
+                    <p>DONE COURSE</p>
+                  </a>
+                </li>
+                <li class="nav-item col-lg-6 p-0">
+                  <a class="nav-link text-center disabled" href="#unfinished" data-toggle="tab">
+                    <p>3</p>
+                    <p>UNFINISHED COURSE</p>
+                  </a>
+                </li>
+              </ul>
+              <div class="tab-content done courses-list">
+                <ul class="list-group courses-list">
+                  <li class="list-group-item">Basic for UX developer</li>
+                  <li class="list-group-item">10 steps to improve your wireframe</li>
+                  <li class="list-group-item">A Better Way To Request App Ratings</li>
+                  <li class="list-group-item">How To Speed Up Your WordPress Website</li>
+                  <li class="list-group-item show-more text-right">Show more
+                    <i class="fas fa-angle-double-down"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <ul class="nav nav-tabs ">
+                <li class="nav-item col-lg-6 p-0">
+                  <a class="nav-link active questions text-center" href="#done" data-toggle="tab">
+                    <p>27</p>
+                    <p>asking questions</p>
+                  </a>
+                </li>
+                <li class="nav-item col-lg-6 p-0">
+                  <a class="nav-link text-center disabled" href="#unfinished" data-toggle="tab">
+                    <p>7</p>
+                    <p>answered questions</p>
+                  </a>
+                </li>
+              </ul>
+              <div class="tab-content done qa-list">
+                <ul class="list-group ">
+                  <li class="list-group-item">How to make good logo?</li>
+                  <li class="list-group-item">What are the best mobile apps for ...</li>
+                  <li class="list-group-item">What's the difference between UI and ...</li>
+                  <li class="list-group-item">What logos include hidden messages ...</li>
+                  <li class="list-group-item show-more text-right">Show more
+                    <i class="fas fa-angle-double-down"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <ul class="nav nav-tabs ">
+                <li class="nav-item col-lg-6 p-0">
+                  <a class="nav-link active  exams text-center" href="#done" data-toggle="tab">
+                    <p>19</p>
+                    <p>following exams</p>
+                  </a>
+                </li>
+                <li class="nav-item col-lg-6 p-0">
+                  <a class="nav-link text-center disabled" href="#unfinished" data-toggle="tab">
+                    <p>88</p>
+                    <p>done exams</p>
+                  </a>
+                </li>
+              </ul>
+              <div class="tab-content done exam-list">
+                <ul class="list-group ">
+                  <li class="list-group-item">Junior web designer</li>
+                  <li class="list-group-item">Which is the best way to pass the PMP ...</li>
+                  <li class="list-group-item">What are great examples of viral UX/UI ...</li>
+                  <li class="list-group-item">Why is consistency important in design?</li>
+                  <li class="list-group-item show-more text-right">Show more
+                    <i class="fas fa-angle-double-down"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- bottom row -->
+        <div class="row bottom" >
+          <div class="col-lg-4" style="border: 1px solid black">
 
+          </div>
+          <div class="col-lg-8 activity" >
+            <ul class="list-group">
+              <li class="list-group-item disabled">
+                FRIEND ACTIVITY
+              </li>
+              <li class="list-group-item">
+                <div class="friends-container">
+                <div>
+                  <img src="./images/shawnpeterson.png" alt="friend profile avatar">
+                  <a href="">Shawn Peterson</a>
+                  <p>Finished the course: Basic for UX Designer</p>
+                </div>
+                <div>
+                  <i class="fas fa-clock fa-fw">
+                  </i> 9:30 PM
+                </div>
+              </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <img src="./images/maryrobinson.png" alt=" friend profile avatar">
+                  <a href="">Mary V. Robinson</a>
+                  <p>Asked question: What is best grid for desktop web?</p>
+                </div>
+                <div>
+                  <i class="fas fa-clock fa-fw"></i>9:20 PM
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <img src="./images/joeramos.png" alt=" friend profile avatar">
+                  <a href="">Joe Ramos </a>
+                  <p>Finished the exam: Junior web designer</p>
+                </div>
+                <div>
+                  <i class="fas fa-clock fa-fw">
+                  </i>7:45 PM
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <img src="./images/seanwalker.png" alt=" friend profile avatar">
+                  <a href="">Sean Walker </a>
+                  <p> Answered question: How to make good logo?</p>
+                </div>
+                <div>
+                  <i class="fas fa-clock fa-fw">
+                  </i>11:15 AM
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-end">
+                  <p >Show more</p>
+                  <i class="fas fa-angle-double-down"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      </main>
+    </div>
+  </div>
 </body>
 </html>
-

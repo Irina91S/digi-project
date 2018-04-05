@@ -1,0 +1,22 @@
+aside{
+  width:201px;
+   height:997px;
+  background-color: rgb(52, 73, 94);
+  color: rgb(130, 147, 152);
+}
+
+ .dashboard, .course, .exam, .qa, .news{
+  width: 200px;
+  height: 48px;
+  margin-left: 10px;
+}
+
+span{
+  padding: 26px;
+}
+
+.dashboard{
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  /* background-color: rgb(36,51,66); */
+}
