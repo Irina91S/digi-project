@@ -1,31 +1,23 @@
 .heading{
-  width:1133px;
-  height:189px;
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(212, 216, 216);
-}
-
-.profile{
-  display: inline-flex;
-  margin-top: 19px;
-  margin-left: 45px;
+	border: 1px solid rgb(229, 229, 229);
+	background-color: white;
+	height: 190px;
 }
 
 .user-name{
-  margin-left: 30px;
-}
-.user-name p{
-  color: black;
+	margin-left: 30px;
 }
 
-.info p{
-  color: black;
-  display: inline-flex;
-  line-height: 14px;
+.profile{
+	display: inline-flex;
+	justify-content: space-between;
+	margin-top: 19px;
+  margin-left: 45px;
 }
 
-.stars{
-  display: inline;
+.xp{
+	display: inline-flex;
+	justify-content: space-around;
 }
 
 .nav-tab li:hover{
@@ -35,3 +27,4 @@
 .list{
   margin-left: 45px;
 }
+

@@ -1,10 +1,4 @@
 
-main{
-  background-color: rgb(236, 240, 241);
-  width:1135px;
-  height:999px;
-}
-
-.container div{
-  border: 1px solid black;
+.content{
+	background-color: rgb(236, 240, 241);
 }

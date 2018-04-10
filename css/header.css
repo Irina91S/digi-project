@@ -1,35 +1,36 @@
-
-.user-profile{
-  background-color: rgb(46, 204, 113);
-  width: 200px;
-  height: 90px;
-}
-
-
-
-.user-profile p{
-  color: rgb(255, 255, 255);
+.user{
+background-color: rgb(46,204,113);
+height: 90px;
+width: 200px;
+display: inline-flex;
+justify-content: space-around;
+align-items: center;
+color: white;
+text-transform: uppercase;
 
 }
 
-.top{
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(229, 229, 229);
-  height:90px;
-  width:1133px;
-
+.page{
+	background-color: white;
+	height: 90px;
+	width: 1133px;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
 }
+
+.icons svg{
+	margin: 10px;
+}
+
 .icons{
-  margin-top: 37px;
-  margin-bottom: 36px;
+	display: inline-flex;
+	justify-content: space-between;
 }
 
-.logo{
-  margin-top: 23px;
-  margin-bottom: 23px;
-}
-.search{
-  margin-top: 37px;
-  margin-bottom: 36px;
-
+.input[type="text"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
 }

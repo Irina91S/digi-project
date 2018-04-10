@@ -1,22 +1,29 @@
-aside{
-  width:201px;
-   height:997px;
-  background-color: rgb(52, 73, 94);
-  color: rgb(130, 147, 152);
+.leftbar{
+	background-color: rgb(52, 73, 94);
+	width: 200px;
+	height: 995px;
+	padding: 0;	
 }
 
- .dashboard, .course, .exam, .qa, .news{
-  width: 200px;
-  height: 48px;
-  margin-left: 10px;
+.sidebar{
+	margin-top: 32px;
 }
 
-span{
-  padding: 26px;
+.sidebar p{
+	margin-left: 24px;
+	color: rgb(149,165,166);
 }
 
-.dashboard{
-  margin-top: 10px;
-  color: rgb(255, 255, 255);
-  /* background-color: rgb(36,51,66); */
+.sidebar li {
+	cursor: pointer;
+	padding: 10px;
+	display: inline-flex;
+	justify-content: flex-start;
+	align-content: center;
+	text-transform: uppercase;
+}
+
+.sidebar li:hover {
+	width: 100%;
+	background-color: rgb(36,51,66);
 }

@@ -1,0 +1,85 @@
+.experience {
+	flex-direction: column;
+}
+
+.bottom h6 {
+	color: #7f8c8d;
+}
+
+.xp-course .distribution{
+	width: 44px;
+	height: 40px;
+	background-color: rgb(234, 237, 241);
+	border-bottom: 27px solid rgb(46,204,113);
+	
+}
+
+.xp-qa .distribution{
+	width: 44px;
+	height: 40px;
+	background-color: rgb(234, 237, 241);
+	border-bottom: 14px solid rgb(46,204,113);
+}
+
+.xp-exam .distribution{
+	width: 44px;
+	height: 40px;
+	background-color: rgb(234, 237, 241);
+	border-bottom: 21px solid rgb(46,204,113);
+}
+
+.month h2{
+	font-size: 34px	;
+	font-family: 'Proxima Nova Bold';
+	color: rgb(46,204,113);
+	margin: 0;
+}
+
+.month p {
+	color: #7f8c8d;
+}
+.details {
+	font-size: 10px;
+	font-family: 'Proxima Nova Regular';
+	color: #7f8c8d;
+}
+
+.col-center {
+	margin: 0 auto;
+}
+
+.graph {
+	width: 100%;
+}
+
+.activity.list-group li:hover{
+	border-left: 3px solid rgb(142, 68, 173);
+	background-color: #f6f8fc;
+}
+
+.activity p {
+	font-family: 'Proxima Nova Bold';
+	margin-bottom: 0;
+}
+
+.activity svg {
+	margin: 0 5px;
+}
+
+.activity img {
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
+}
+
+.activity a, .activity p {
+	line-height: 35px;
+}
+
+.activity a {
+	margin-right: 5px;
+}
+
+.bottom hr {
+	margin-bottom: 0;
+}

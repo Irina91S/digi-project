@@ -1,312 +1,323 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" >
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <link rel="stylesheet" type="text/css" href="./css/leftbar.css">
+  <link rel="stylesheet" type="text/css" href="./css/heading.css">
+  <link rel="stylesheet" type="text/css" href="./css/middlerow.css">
+  <link rel="stylesheet" type="text/css" href="./css/bottomrow.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/leftbar.css">
-  <link rel="stylesheet" href="./css/heading.css">
-  <link rel="stylesheet" href="./css/content.css">
-  <title> Dashboard</title>
+  <script  src="./script/popper.min.js"></script>
+  <title>Dashboard</title>
 </head>
 <body>
-  <header >
-    <div class="container-fluid">
-      <div class="row"> <!-- first row-->
-
-        <div class="col-lg-2 user-profile">
-          <div class="row">
-            <div class="col-lg-6">
-              <img src="./images/avatar.png" alt="user avatar" class="avatar-small">
-            </div>
-
-            <div class="col-lg-6">
-              <p class="text-right">HOANG NGUYEN</p>
-            </div>
-          </div>
+  <div class="container-fluid">     
+    <div class="row header">
+      <div class="col-lg-2 user">
+        <div>
+          <img src="./images/avatar.png" alt="user avatar small">
         </div>
-
-        <div class="col-lg-10 top" >
-          <div class="row">
-
-            <div class="col-lg-4 icons">
-              <span class="fas fa-user fa-lg"></span>
-              <span class="fas fa-comment fa-lg "></span>
-              <span class="fas fa-bell fa-lg "></span>
-            </div>
-
-            <div class="col-lg-4 ">
-              <img src="./images/icon.png" alt="site logo" class="rounded mx-auto d-block logo">
-            </div>
-
-            <div class="col-lg-4 search">
-              <div class="d-flex justify-content-end">
-                <input type="search" placeholder="Type for search">
-                <button type="button">
-                  <span class="fas fa-search"></span>
-                </button>
-              </div>
-            </div>
-          </div>
+        <div>
+          <span> huang nguyen</span>
         </div>
-
       </div>
-    </div>
-  </header><!-- header goes here -->
-  <!--content goes here-->
-  <div class="container-fluid">
-    <!-- second row-->
+      <div class="col-lg-10 page">
+        <div class="icons">
+          <div>
+            <i
+             class="fas fa-user"></i>
+          </div>
+          <div>
+            <i class="fas fa-comment"></i>
+          </div>
+          <div>
+            <i class="fas fa-bell"></i>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="./images/logo.png" alt="site logo">
+        </div>
+        <div class="search">
+          <input type="text" name="searchbar" placeholder="type for search">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+    </div> 
     <div class="row">
-      <!-- left side bar -->
-      <aside class="col-lg-2">
-        <div class="row">
-          <div class="col-lg-12 dashboard">
-            <span class="text-left">dashboard<img src="./images/dashboardshape.png" alt="bullseye"></span>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 course">
-            <span class="text-right">COURSE <img src="./images/course.png" alt="courses"></span>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 exam">
-            <span class="text-left">EXAM <img src="./images/exam.png" alt="exams"></span>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 qa">
-            <span class="text-left">Q&A <img src="./images/qa.png" alt="q&a"></span>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 news">
-            <span class="text-left">NEWS <img src="./images/news.png" alt="news"></span>
-          </div>
-        </div>
-
+      <aside class="col-lg-2 leftbar">      
+        <ul class="nav flex-column sidebar">
+          <li>
+            <div>
+              <img src="./images/dashboardshape.png" alt="dashboard icon">
+            </div>
+            <div>
+              <p>dashboard</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="./images/course.png" alt="course icon">         
+            </div>
+            <div>
+              <p>course</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="./images/exam.png" alt="exam icon">
+            </div>
+            <div>
+              <p>exam</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="./images/qa.png" alt="q&a icon">        
+            </div>
+            <div>
+              <p>q&a</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="./images/news.png" alt="news icon">       
+            </div>  
+            <div>
+              <p>news</p>
+            </div>
+          </li>
+        </ul>
       </aside>
-      <main class="col-lg-10">
-        <!-- users profile heading-->
-        <div class="row" >
-          <div class="col-lg-12 heading">
-            <!--user heading  -->
-            <div class="row">
-              <div class="col-lg-10">
-                <div class="profile">
-                  <img src="./images/avatarbig.png" alt="profile avatar" class="photo">
-                  <div class="user-name">
-                    <p> HOANG NGUYEN</p>
-                    <div class="info">
-                      <p>Student .
-                        <a href="#">Learn more</a>
-                      </p>
-                      <div class="xp">
-                        <img src="./images/xp.png" alt="experience icon" class="xp-icon">
-                        <p> 8,782 exp  </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="stars">
-                    <img src="./images/star.png" alt="stars">
-                    <img src="./images/star.png" alt="stars">
-                    <img src="./images/star.png" alt="stars">
-                    <img src="./images/star.png" alt="stars">
-                    <img src="./images/star.png" alt="stars">
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-2">
-                <div class="tooltip-icon d-flex justify-content-end">
-                  <span class="fas fa-edit fa-lg"></span>
-                  <span class="fas fa-sign-out-alt fa-lg" ></span>
-                </div>
-              </div>
-            </div>
-            <div class="row list">
-              <ul class="nav nav-tab">
-                <li class="active">
-                  <a class="nav-link" href="">KNWOLEDGE</a>
-                </li>
-                <li class="nav-item">
-                  <a  class="nav-link" href="">COURSE</a>
-                </li >
-                <li class="nav-item">
-                  <a class="nav-link" href="">EXAM</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Q&A</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">NEWS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">ACTIVITY</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">FRIENDS</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!--main content -->
-        <div  class="col-lg-12 main-content">
-          <!-- middle row -->
-          <div class="row">
-            <div class="col-lg-4 ">
-              <ul class="nav nav-tabs">
-                <li class="nav-item col-lg-6 p-0">
-                  <a class="nav-link active courses text-center" href="#done" data-toggle="tab">
-                    <p>12</p>
-                    <p>DONE COURSE</p>
-                  </a>
-                </li>
-                <li class="nav-item col-lg-6 p-0">
-                  <a class="nav-link text-center disabled" href="#unfinished" data-toggle="tab">
-                    <p>3</p>
-                    <p>UNFINISHED COURSE</p>
-                  </a>
-                </li>
-              </ul>
-              <div class="tab-content done courses-list">
-                <ul class="list-group courses-list">
-                  <li class="list-group-item">Basic for UX developer</li>
-                  <li class="list-group-item">10 steps to improve your wireframe</li>
-                  <li class="list-group-item">A Better Way To Request App Ratings</li>
-                  <li class="list-group-item">How To Speed Up Your WordPress Website</li>
-                  <li class="list-group-item show-more text-right">Show more
-                    <i class="fas fa-angle-double-down"></i>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 ">
-              <ul class="nav nav-tabs ">
-                <li class="nav-item col-lg-6 p-0">
-                  <a class="nav-link active questions text-center" href="#done" data-toggle="tab">
-                    <p>27</p>
-                    <p>asking questions</p>
-                  </a>
-                </li>
-                <li class="nav-item col-lg-6 p-0">
-                  <a class="nav-link text-center disabled" href="#unfinished" data-toggle="tab">
-                    <p>7</p>
-                    <p>answered questions</p>
-                  </a>
-                </li>
-              </ul>
-              <div class="tab-content done qa-list">
-                <ul class="list-group ">
-                  <li class="list-group-item">How to make good logo?</li>
-                  <li class="list-group-item">What are the best mobile apps for ...</li>
-                  <li class="list-group-item">What's the difference between UI and ...</li>
-                  <li class="list-group-item">What logos include hidden messages ...</li>
-                  <li class="list-group-item show-more text-right">Show more
-                    <i class="fas fa-angle-double-down"></i>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 ">
-              <ul class="nav nav-tabs ">
-                <li class="nav-item col-lg-6 p-0">
-                  <a class="nav-link active  exams text-center" href="#done" data-toggle="tab">
-                    <p>19</p>
-                    <p>following exams</p>
-                  </a>
-                </li>
-                <li class="nav-item col-lg-6 p-0">
-                  <a class="nav-link text-center disabled" href="#unfinished" data-toggle="tab">
-                    <p>88</p>
-                    <p>done exams</p>
-                  </a>
-                </li>
-              </ul>
-              <div class="tab-content done exam-list">
-                <ul class="list-group ">
-                  <li class="list-group-item">Junior web designer</li>
-                  <li class="list-group-item">Which is the best way to pass the PMP ...</li>
-                  <li class="list-group-item">What are great examples of viral UX/UI ...</li>
-                  <li class="list-group-item">Why is consistency important in design?</li>
-                  <li class="list-group-item show-more text-right">Show more
-                    <i class="fas fa-angle-double-down"></i>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- bottom row -->
-        <div class="row bottom" >
-          <div class="col-lg-4" style="border: 1px solid black">
 
-          </div>
-          <div class="col-lg-8 activity" >
-            <ul class="list-group">
-              <li class="list-group-item disabled">
-                FRIEND ACTIVITY
-              </li>
-              <li class="list-group-item">
-                <div class="friends-container">
-                <div class="shawn">
-                  <img src="./images/shawnpeterson.png" alt="friend profile avatar">
-                  <a href="">Shawn Peterson</a>
-                  <p>Finished the course: Basic for UX Designer</p>
-                </div>
-                <div class="badge">
-                  <i class="fas fa-clock fa-fw">
-                  </i> 9:30 PM
+      <main class="col-lg-10 content">
+        <div class="row heading"> 
+          <div class="col-lg-10">
+            <div class="profile">
+              <div>
+                <img src="./images/avatarbig.png" alt="profile avatar" class="photo">
+              </div>
+              <div class="user-name">
+                <p> HOANG NGUYEN</p>
+                <div class="info">
+                  <p>Student .
+                    <a href="#">Learn more</a>
+                  </p>
+                  <div class="xp">
+                    <div>
+                      <img src="./images/xp.png" alt="experience icon" class="xp-icon">
+                    </div>
+                    <p> 8,782 exp  </p>
+                  </div>
                 </div>
               </div>
+              <div class="stars">
+                <img src="./images/star.png" alt="stars">
+                <img src="./images/star.png" alt="stars">
+                <img src="./images/star.png" alt="stars">
+                <img src="./images/star.png" alt="stars">
+                <img src="./images/star.png" alt="stars">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="icons d-flex justify-content-end">
+              <span class="fas fa-edit fa-lg" data-toggle="tooltip" data-placement="top" title="edit" ></span>
+              <span class="fas fa-sign-out-alt fa-lg" data-toggle="tooltip" data-placement="top" title="sign out" ></span>
+            </div>
+          </div>
+          <div class="row list">
+            <ul class="nav nav-tab">
+              <li class="active">
+                <a class="nav-link" href="">KNOWLEDGE</a>
               </li>
-              <!-- <li class="list-group-item">
-                <div>
+              <li class="nav-item">
+                <a  class="nav-link" href="">COURSE</a>
+              </li >
+              <li class="nav-item">
+                <a class="nav-link" href="">EXAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Q&amp;A</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">NEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">ACTIVITY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">FRIENDS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row middle px-4 mt-5">
+          <div class="col-lg-4 ">
+            <ul class="nav nav-tabs">
+              <li class="nav-item col-lg-6 p-0">
+                <a class="nav-link active courses text-center" href="#done" data-toggle="tab">
+                  <p>12</p>
+                  <p>DONE COURSE</p>
+                </a>
+              </li>
+              <li class="nav-item col-lg-6 p-0">
+                <a class="nav-link text-center disabled" href="#unfinished" data-toggle="tab">
+                  <p>3</p>
+                  <p>UNFINISHED COURSE</p>
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content done courses-list">
+              <ul class="list-group courses-list">
+                <li class="list-group-item">Basic for UX developer</li>
+                <li class="list-group-item">10 steps to improve your wireframe</li>
+                <li class="list-group-item">A Better Way To Request App Ratings</li>
+                <li class="list-group-item">How To Speed Up Your WordPress Website</li>
+                <li class="list-group-item show-more text-right">Show more
+                  <i class="fas fa-angle-double-down"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <ul class="nav nav-tabs ">
+              <li class="nav-item col-lg-6 p-0">
+                <a class="nav-link active questions text-center" href="#done" data-toggle="tab">
+                  <p>27</p>
+                  <p>asking questions</p>
+                </a>
+              </li>
+              <li class="nav-item col-lg-6 p-0">
+                <a class="nav-link text-center disabled" href="#unfinished" data-toggle="tab">
+                  <p>7</p>
+                  <p>answered questions</p>
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content done qa-list">
+              <ul class="list-group ">
+                <li class="list-group-item">How to make good logo?</li>
+                <li class="list-group-item">What are the best mobile apps for ...</li>
+                <li class="list-group-item">What's the difference between UI and ...</li>
+                <li class="list-group-item">What logos include hidden messages ...</li>
+                <li class="list-group-item show-more text-right">Show more
+                  <i class="fas fa-angle-double-down"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <ul class="nav nav-tabs ">
+              <li class="nav-item col-lg-6 p-0">
+                <a class="nav-link active  exams text-center" href="#done" data-toggle="tab">
+                  <p>19</p>
+                  <p>following exams</p>
+                </a>
+              </li>
+              <li class="nav-item col-lg-6 p-0">
+                <a class="nav-link text-center disabled" href="#unfinished" data-toggle="tab">
+                  <p>88</p>
+                  <p>done exams</p>
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content done exam-list">
+              <ul class="list-group ">
+                <li class="list-group-item">Junior web designer</li>
+                <li class="list-group-item">Which is the best way to pass the PMP ...</li>
+                <li class="list-group-item">What are great examples of viral UX/UI ...</li>
+                <li class="list-group-item">Why is consistency important in design?</li>
+                <li class="list-group-item show-more text-right">Show more
+                  <i class="fas fa-angle-double-down"></i>
+                </li>
+              </ul>
+            </div>
+          </div>       
+        </div>
+
+        <div class="row bottom px-4 mt-5 d-flex flex-row">
+          <div class="col-lg-4 bg-white border-right">
+            <div class="row experience px-4">
+              <h6 class="my-3">Experience gained</h6>
+              <div class="d-flex justify-content-between">
+                <div class="xp-course">
+                  <div class="distribution"></div>
+                  <p class="details text-center mt-1">COURSE</p>
+                </div>
+                <div class="xp-qa">
+                  <div class="distribution"></div>
+                  <p class="details text-center mt-1">QUESTION</p>
+                </div>
+                <div class="xp-exam">
+                  <div class="distribution"></div>
+                  <p class="details text-center mt-1">EXAM</p>
+                </div>
+                <div class="month">
+                  <h2>+142</h2>
+                  <p>LAST MONTH</p>
+                </div>
+              </div>        
+            </div>
+            <hr>
+            <div class="row px-4">
+              <h6 class="my-3">Experience per day</h6>
+              <img class="col-center graph" src="images/graph.png" alt="graph">
+            </div>
+          </div>
+          <div class="col-lg-8 p-0">
+            <ul class="list-group activity">
+              <li class="list-group-item disabled">FRIEND ACTIVITY</li>
+              <li class="list-group-item d-flex justify-content-between">               
+                  <div class="d-flex justify-content-start">
+                    <img src="./images/shawnpeterson.png" alt="friend profile avatar">
+                    <a class="align-middle" href="">Shawn Peterson</a>
+                     <p>Finished the course: Basic for UX Designer</p>       
+                  </div>   
+                  <div class="d-flex justify-content-end">
+                    <i class="fas fa-clock fa-fw "></i> 9:30 PM
+                  </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                <div class="d-flex justify-content-start">
                   <img src="./images/maryrobinson.png" alt=" friend profile avatar">
                   <a href="">Mary V. Robinson</a>
                   <p>Asked question: What is best grid for desktop web?</p>
-                </div>
-                <div>
-                  <i class="fas fa-clock fa-fw"></i>9:20 PM
-                </div>
+                </div>    
+                  <div class="d-flex justify-content-end">
+                    <i class="fas fa-clock fa-fw"></i>9:20 PM
+                  </div>
               </li>
-              <li class="list-group-item">
-                <div>
+              <li class="list-group-item d-flex justify-content-between">
+                <div class="d-flex justify-content-start">
                   <img src="./images/joeramos.png" alt=" friend profile avatar">
                   <a href="">Joe Ramos </a>
                   <p>Finished the exam: Junior web designer</p>
-                </div>
-                <div>
-                  <i class="fas fa-clock fa-fw">
-                  </i>7:45 PM
-                </div>
+                </div>                  
+                  <div class="d-flex justify-content-end">
+                    <i class="fas fa-clock fa-fw"></i>7:45 PM
+                  </div>
               </li>
-              <li class="list-group-item">
-                <div>
-                  <img src="./images/seanwalker.png" alt=" friend profile avatar">
-                  <a href="">Sean Walker </a>
-                  <p> Answered question: How to make good logo?</p>
-                </div>
-                <div>
-                  <i class="fas fa-clock fa-fw">
-                  </i>11:15 AM
-                </div>
+              <li class="list-group-item  d-flex justify-content-between">
+                  <div class="d-flex justify-content-start">
+                    <img src="./images/seanwalker.png" alt=" friend profile avatar">
+                    <a href="">Sean Walker </a>
+                    <p> Answered question: How to make good logo?</p>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <i class="fas fa-clock fa-fw"></i>11:15 AM
+                  </div>
               </li>
               <li class="list-group-item d-flex justify-content-end">
                   <p >Show more</p>
                   <i class="fas fa-angle-double-down"></i>
-              </li> -->
+              </li>
             </ul>
           </div>
         </div>
-
       </main>
     </div>
   </div>
